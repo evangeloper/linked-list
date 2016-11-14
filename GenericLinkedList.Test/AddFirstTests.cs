@@ -193,7 +193,7 @@ namespace SoftwareDeveloperIO.Collections.Generic.Test
         }
 
         [TestMethod]
-        public void Should_ReturnTrue_When_Adding4NodesAndLasPreviousValueIs3()
+        public void Should_LastPreviousValueIs3_When_3AddedSecond()
         {
             ILinkedList<int> list = new LinkedList<int>();
             list.AddFirst(2);
