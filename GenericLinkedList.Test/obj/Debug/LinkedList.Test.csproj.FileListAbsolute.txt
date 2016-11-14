@@ -1,0 +1,7 @@
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList.Test\bin\Debug\GenericLinkedList.Test.dll
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList.Test\bin\Debug\GenericLinkedList.Test.pdb
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList.Test\bin\Debug\GenericLinkedList.dll
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList.Test\bin\Debug\GenericLinkedList.pdb
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList.Test\obj\Debug\LinkedList.Test.csprojResolveAssemblyReference.cache
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList.Test\obj\Debug\GenericLinkedList.Test.dll
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList.Test\obj\Debug\GenericLinkedList.Test.pdb

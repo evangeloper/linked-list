@@ -1,0 +1,19 @@
+\\psf\Home\MY FILES\Work\Garage\Testing shit\LinkedListObject\GenericLinkedList\bin\Debug\GenericLinkedList.dll
+\\psf\Home\MY FILES\Work\Garage\Testing shit\LinkedListObject\GenericLinkedList\bin\Debug\GenericLinkedList.pdb
+\\psf\Home\MY FILES\Work\Garage\Testing shit\LinkedListObject\GenericLinkedList\obj\Debug\GenericLinkedList.dll
+\\psf\Home\MY FILES\Work\Garage\Testing shit\LinkedListObject\GenericLinkedList\obj\Debug\GenericLinkedList.pdb
+\\psf\Home\MY FILES\Work\Garage\Learn\LinkedLists\GenericLinkedList\bin\Debug\GenericLinkedList.dll
+\\psf\Home\MY FILES\Work\Garage\Learn\LinkedLists\GenericLinkedList\bin\Debug\GenericLinkedList.pdb
+\\psf\Home\MY FILES\Work\Garage\Learn\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.dll
+\\psf\Home\MY FILES\Work\Garage\Learn\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.pdb
+\\psf\Home\MY FILES\Work\Garage\Learn\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.csprojResolveAssemblyReference.cache
+\\psf\Home\MY FILES\Work\Garage\Learn\Interview\LinkedLists\GenericLinkedList\bin\Debug\GenericLinkedList.dll
+\\psf\Home\MY FILES\Work\Garage\Learn\Interview\LinkedLists\GenericLinkedList\bin\Debug\GenericLinkedList.pdb
+\\psf\Home\MY FILES\Work\Garage\Learn\Interview\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.csprojResolveAssemblyReference.cache
+\\psf\Home\MY FILES\Work\Garage\Learn\Interview\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.dll
+\\psf\Home\MY FILES\Work\Garage\Learn\Interview\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.pdb
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\bin\Debug\GenericLinkedList.dll
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\bin\Debug\GenericLinkedList.pdb
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.dll
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.pdb
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.csprojResolveAssemblyReference.cache

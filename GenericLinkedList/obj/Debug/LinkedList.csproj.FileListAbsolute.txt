@@ -1,0 +1,4 @@
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\bin\Debug\GenericLinkedList.dll
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\bin\Debug\GenericLinkedList.pdb
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.dll
+Z:\Files\Learn\Katas\LinkedLists\GenericLinkedList\obj\Debug\GenericLinkedList.pdb
