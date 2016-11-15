@@ -119,7 +119,7 @@ namespace SoftwareDeveloperIO.Collections.Generic
                     // First node
                     if (currentNode.Previous == null)
                     {
-                        // If there are more than 1 nodes
+                        // If there is more than 1 node
                         if (currentNode.Next != null)
                         {
                             currentNode.Next.Previous = null;
