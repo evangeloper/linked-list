@@ -1,10 +1,7 @@
-﻿using System;
-
-namespace SoftwareDeveloperIO.Collections.Generic
+﻿namespace SoftwareDeveloperIO.Collections.Generic
 {
-    public class LinkedList<T>: ILinkedList<T>
+    public class LinkedList<T> : ILinkedList<T>
     {
-
         private LinkedListNode<T> first;
         private LinkedListNode<T> last;
         private int size;
@@ -16,30 +13,18 @@ namespace SoftwareDeveloperIO.Collections.Generic
             size = 0;
         }
 
-        public int Count
-        {
-            get { return size; }
-        }
+        public int Count => size;
 
-        public LinkedListNode<T> First
-        {
-            get { return first; }
-        }
+        public LinkedListNode<T> First => first;
 
-        public bool IsEmpty
-        {
-            get { return first == null ? true : false; }
-        }
+        public bool IsEmpty => first == null ? true : false;
 
-        public LinkedListNode<T> Last
-        {
-            get { return last; }
-        }
+        public LinkedListNode<T> Last => last;
 
         public void AddFirst(T value)
         {
             // Create new node
-            var node = new LinkedListNode<T>() { Value = value };
+            var node = new LinkedListNode<T>() {Value = value};
 
             if (IsEmpty)
             {
@@ -59,7 +44,7 @@ namespace SoftwareDeveloperIO.Collections.Generic
 
         public void AddLast(T value)
         {
-            var node = new LinkedListNode<T>() { Value = value };
+            var node = new LinkedListNode<T>() {Value = value};
 
             if (IsEmpty)
             {
@@ -77,7 +62,7 @@ namespace SoftwareDeveloperIO.Collections.Generic
 
         public void Clear()
         {
-            // Refator: Don't be lazy and leave this to the GC
+            // Refactor: Don't be lazy and leave this to the GC
             // Release reference to node elements
             first = null;
             last = null;
@@ -89,9 +74,14 @@ namespace SoftwareDeveloperIO.Collections.Generic
             var node = first;
             while (node != null)
             {
-                if (node.Value.Equals(value)) { return true; }
+                if (node.Value.Equals(value))
+                {
+                    return true;
+                }
+
                 node = node.Next;
             }
+
             return false;
         }
 
@@ -100,9 +90,14 @@ namespace SoftwareDeveloperIO.Collections.Generic
             var node = first;
             while (node != null)
             {
-                if (node.Value.Equals(value)) { return node; }
+                if (node.Value.Equals(value))
+                {
+                    return node;
+                }
+
                 node = node.Next;
             }
+
             return null;
         }
 
@@ -125,7 +120,6 @@ namespace SoftwareDeveloperIO.Collections.Generic
                             currentNode.Next.Previous = null;
                             first = currentNode.Next;
                         }
-                        
                     }
                     // Last node
                     else if (currentNode.Next == null)
@@ -139,17 +133,16 @@ namespace SoftwareDeveloperIO.Collections.Generic
                         previousNode.Next = currentNode.Next;
                         currentNode.Next.Previous = previousNode;
                     }
+
                     size--;
                     return true;
                 }
-                else
-                {
-                    previousNode = currentNode;
-                    currentNode = currentNode.Next;
-                }
+
+                previousNode = currentNode;
+                currentNode = currentNode.Next;
             }
+
             return false;
         }
-
     }
 }

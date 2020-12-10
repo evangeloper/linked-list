@@ -95,7 +95,7 @@ namespace SoftwareDeveloperIO.Collections.Generic.Test
             list.AddFirst(5);
 
             Assert.IsTrue(list.First.Previous == null);
-            
+
         }
 
         [TestMethod]
@@ -344,14 +344,12 @@ namespace SoftwareDeveloperIO.Collections.Generic.Test
             list.AddFirst(55);
 
             int[] expected = { 55, 34, 21, 13, 8, 5, 3, 2 };
-            var node = list.First;
-            for (int i = 7; i <= 0; i--)
+            var node = list.Last;
+            for (var i = 7; i >= 0; i--)
             {
                 Assert.AreEqual(expected[i], node.Value);
-                node = node.Next;
+                node = node.Previous;
             }
-
         }
-
     }
 }
